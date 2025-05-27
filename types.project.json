@@ -1,0 +1,13 @@
+{
+  "name": "use-pages",
+  "tree": {
+    "$className": "DataModel",
+    "use-pages": {
+      "$path": "Packages",
+      "$ignoreUnknownInstances": true,
+      "use-pages": {
+        "$path": "src"
+      }
+    }
+  }
+}
