@@ -1,10 +1,10 @@
 --!strict
 
-local DialogueContentFitter = require(script.Parent["dialogue-content-fitter"]);
-local React = require(script.Parent.react);
-local IDialogue = require(script.Parent["dialogue-types"]);
-local IEffect = require(script.Parent["effect-types"]);
-local ITheme = require(script.Parent["theme-types"]);
+local DialogueContentFitter = require("@pkg/dialogue_content_fitter");
+local React = require("@pkg/react");
+local IDialogue = require("@pkg/dialogue_types");
+local IEffect = require("@pkg/effect_types");
+local ITheme = require("@pkg/theme_types");
 
 type Dialogue = IDialogue.Dialogue;
 type Page = IEffect.Page;
