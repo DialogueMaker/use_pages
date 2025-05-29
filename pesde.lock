@@ -2,7 +2,7 @@
 # It is not intended for manual editing.
 format = 2
 name = "dialoguemaker/use_pages"
-version = "0.1.0-patch-2"
+version = "0.1.0-patch-3"
 target = "roblox"
 
 [graph."0x5eal/unzip@0.1.3 luau".pkg_ref]
@@ -119,25 +119,23 @@ react = [{ wally = "wally#jsdotlua/react", version = "^17.2.1", index = "https:/
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 
-[graph."dialoguemaker/theme_types@0.1.0-patch-4 roblox"]
-direct = ["theme_types", { name = "dialoguemaker/theme_types", version = "^0.1.0-patch-4", index = "default" }, "standard"]
+[graph."dialoguemaker/theme_types@0.1.0-patch-5 roblox"]
+direct = ["theme_types", { name = "dialoguemaker/theme_types", version = "^0.1.0-patch-5", index = "default" }, "standard"]
 
-[graph."dialoguemaker/theme_types@0.1.0-patch-4 roblox".dependencies]
-dialogue_client_types = ["dialoguemaker/dialogue_client_types@0.1.0-patch-3 roblox", "peer"]
-dialogue_server_types = ["dialoguemaker/dialogue_server_types@0.1.0-patch-4 roblox", "peer"]
-dialogue_types = ["dialoguemaker/dialogue_types@0.1.0-patch-7 roblox", "peer"]
-effect_types = ["dialoguemaker/effect_types@0.1.0-patch-9 roblox", "peer"]
+[graph."dialoguemaker/theme_types@0.1.0-patch-5 roblox".dependencies]
+dialogue_client_types = ["dialoguemaker/dialogue_client_types@0.1.0-patch-3 roblox", "standard"]
+dialogue_server_types = ["dialoguemaker/dialogue_server_types@0.1.0-patch-4 roblox", "standard"]
+dialogue_types = ["dialoguemaker/dialogue_types@0.1.0-patch-7 roblox", "standard"]
 react = ["wally#jsdotlua/react@17.2.1 roblox", "peer"]
 
-[graph."dialoguemaker/theme_types@0.1.0-patch-4 roblox".pkg_ref]
+[graph."dialoguemaker/theme_types@0.1.0-patch-5 roblox".pkg_ref]
 ref_ty = "pesde"
 index_url = "https://github.com/pesde-pkg/index"
 
-[graph."dialoguemaker/theme_types@0.1.0-patch-4 roblox".pkg_ref.dependencies]
-dialogue_client_types = [{ name = "dialoguemaker/dialogue_client_types", version = "^0.1.0-patch-2", index = "https://github.com/pesde-pkg/index" }, "peer"]
-dialogue_server_types = [{ name = "dialoguemaker/dialogue_server_types", version = "^0.1.0-patch-3", index = "https://github.com/pesde-pkg/index" }, "peer"]
-dialogue_types = [{ name = "dialoguemaker/dialogue_types", version = "^0.1.0-patch-6", index = "https://github.com/pesde-pkg/index" }, "peer"]
-effect_types = [{ name = "dialoguemaker/effect_types", version = "^0.1.0-patch-9", index = "https://github.com/pesde-pkg/index" }, "peer"]
+[graph."dialoguemaker/theme_types@0.1.0-patch-5 roblox".pkg_ref.dependencies]
+dialogue_client_types = [{ name = "dialoguemaker/dialogue_client_types", version = "^0.1.0-patch-3", index = "https://github.com/pesde-pkg/index" }, "standard"]
+dialogue_server_types = [{ name = "dialoguemaker/dialogue_server_types", version = "^0.1.0-patch-4", index = "https://github.com/pesde-pkg/index" }, "standard"]
+dialogue_types = [{ name = "dialoguemaker/dialogue_types", version = "^0.1.0-patch-7", index = "https://github.com/pesde-pkg/index" }, "standard"]
 luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.47.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 react = [{ wally = "wally#jsdotlua/react", version = "^17.2.1", index = "https://github.com/UpliftGames/wally-index" }, "peer"]
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
