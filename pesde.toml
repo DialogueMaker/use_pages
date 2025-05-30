@@ -42,5 +42,5 @@ react = { wally = "jsdotlua/react", version = "^17.2.1" }
 [dependencies]
 dialogue_types = { name = "dialoguemaker/dialogue_types", version = "^0.1.0-patch-7" }
 effect_types = { name = "dialoguemaker/effect_types", version = "^0.1.0-patch-9" }
-theme_types = { name = "dialoguemaker/theme_types", version = "^0.1.0-patch-5" }
+theme_types = { name = "dialoguemaker/theme_types", version = "^0.1.0-patch-6" }
 dialogue_content_fitter = { name = "dialoguemaker/dialogue_content_fitter", version = "^0.1.0-patch-2" }
