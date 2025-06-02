@@ -2,7 +2,7 @@
 # It is not intended for manual editing.
 format = 2
 name = "dialoguemaker/use_pages"
-version = "0.1.0-patch-5"
+version = "0.1.0-patch-6"
 target = "roblox"
 
 [graph."0x5eal/unzip@0.1.3 luau".pkg_ref]
@@ -50,19 +50,19 @@ react = [{ wally = "wally#jsdotlua/react", version = "^17.2.1", index = "https:/
 rojo = [{ name = "pesde/rojo", version = "^7.4.4", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.1.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 
-[graph."dialoguemaker/dialogue_content_fitter@0.1.0-patch-3 roblox"]
-direct = ["dialogue_content_fitter", { name = "dialoguemaker/dialogue_content_fitter", version = "^0.1.0-patch-3", index = "default" }, "standard"]
+[graph."dialoguemaker/dialogue_content_fitter@0.1.0-patch-5 roblox"]
+direct = ["dialogue_content_fitter", { name = "dialoguemaker/dialogue_content_fitter", version = "^0.1.0-patch-5", index = "default" }, "standard"]
 
-[graph."dialoguemaker/dialogue_content_fitter@0.1.0-patch-3 roblox".dependencies]
+[graph."dialoguemaker/dialogue_content_fitter@0.1.0-patch-5 roblox".dependencies]
 dialogue_content_fitter_types = ["dialoguemaker/dialogue_content_fitter_types@0.1.0-patch-2 roblox", "standard"]
 effect_types = ["dialoguemaker/effect_types@0.1.0-patch-9 roblox", "standard"]
 react = ["wally#jsdotlua/react@17.2.1 roblox", "peer"]
 
-[graph."dialoguemaker/dialogue_content_fitter@0.1.0-patch-3 roblox".pkg_ref]
+[graph."dialoguemaker/dialogue_content_fitter@0.1.0-patch-5 roblox".pkg_ref]
 ref_ty = "pesde"
 index_url = "https://github.com/pesde-pkg/index"
 
-[graph."dialoguemaker/dialogue_content_fitter@0.1.0-patch-3 roblox".pkg_ref.dependencies]
+[graph."dialoguemaker/dialogue_content_fitter@0.1.0-patch-5 roblox".pkg_ref.dependencies]
 dialogue_content_fitter_types = [{ name = "dialoguemaker/dialogue_content_fitter_types", version = "^0.1.0-patch-2", index = "https://github.com/pesde-pkg/index" }, "standard"]
 effect_types = [{ name = "dialoguemaker/effect_types", version = "^0.1.0-patch-9", index = "https://github.com/pesde-pkg/index" }, "standard"]
 luau_lsp = [{ name = "pesde/luau_lsp", version = "^1.47.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
