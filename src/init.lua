@@ -3,11 +3,11 @@
 local Players = game:GetService("Players");
 
 local packages = script.Parent.roblox_packages;
+local DialogueMakerTypes = require(packages.dialogue_maker_types);
 local DialogueContentFitter = require(packages.dialogue_content_fitter);
 local React = require(packages.react);
-local IEffect = require(packages.effect_types);
 
-type Page = IEffect.Page;
+type Page = DialogueMakerTypes.Page;
 
 export type FittingProperties = {
   containerSize: UDim2;
